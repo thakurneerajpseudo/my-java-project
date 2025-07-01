@@ -14,9 +14,10 @@
     <name>MyProject</name>
     <description>Demo project for Spring Boot</description>
     <properties>
-        <java.version>21</java.version>
+        <java.version>17</java.version>
     </properties>
     <dependencies>
+    <!--So here i have changed the version of the java -->
         <!-- Spring Boot Dependencies -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
