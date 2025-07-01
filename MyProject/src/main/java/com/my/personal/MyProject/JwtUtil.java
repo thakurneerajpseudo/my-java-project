@@ -93,7 +93,7 @@ public class JwtUtil {
             String email = extractEmail(token);
             return (email.equals(userDetails.getUsername()) && !isTokenExpired(token));
         } catch (Exception e) {
-            return false;
+            return false;  
         }
     }
 
