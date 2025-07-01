@@ -58,6 +58,8 @@ import jakarta.annotation.PostConstruct;
 
 @Component
 public class JwtUtil {
+	
+	//Rajib
 
     @Value("${jwt.secret.key}")
     private String secretKey; // From application.properties
